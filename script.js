@@ -150,7 +150,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     //Function that handles Losing
     lose = () => {
-        
+        if((currentTime === 0) || (squares[currentIndex].classList.contains('c1'))
+        || (squares[currentIndex].classList.contains('l5'))
+        || (squares[currentIndex].classList.contains('l4'))){}
     }
 
 
