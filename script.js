@@ -190,4 +190,13 @@ document.addEventListener('DOMContentLoaded', () => {
         lose();
     }
 
+    //To start and pause game
+    startBtn.addEventListener('click', () => {
+        if(timerId){
+            clearInterval(timerId)
+        } else {
+            
+        }
+    })
+
 })
