@@ -5,7 +5,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const startBtn = document.querySelector('#button');
     const carsLeft = document.querySelector('.car-left');
     const carsRight = document.querySelector('.car-right');
-    const
+    const logsLeft = document.querySelector('.log-left');
+    const logsRight = document.querySelector('.log-right');
 
     const width = 9;
     let currentIndex = 76;
