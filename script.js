@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const width = 9;
     let currentIndex = 76;
+    let currentTime = 20;
     let timerId;
 
     //Render frog on starting-block
@@ -154,7 +155,9 @@ document.addEventListener('DOMContentLoaded', () => {
         || (squares[currentIndex].classList.contains('l5'))
         || (squares[currentIndex].classList.contains('l4'))){
             result.innerHTML = 'YOU LOSE';
-            squares[currentIndex].classList
+            squares[currentIndex].classList.remove('frog');
+            clearInterval(timerId);
+            document.removeEventListener('keyup', moveFrog);
         }
     }
 
