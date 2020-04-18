@@ -80,5 +80,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    //move logs
+    autoMoveLogs = () => {
+        logsLeft.forEach(logLeft => moveLogLeft(logLeft));
+        logsRight.forEach(logRight => moveLogRight(logRight))
+    }
+
 
 })
