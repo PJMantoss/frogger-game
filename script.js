@@ -179,5 +179,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    //All functions responsible for moving pieces
+    movePieces = () => {
+        currentTime--;
+        timeLeft.textContent = currentTime;
+        autoMoveCars();
+        autoMoveLogs();
+        moveWithLogLeft();
+        moveWithLogRight();
+    }
 
 })
