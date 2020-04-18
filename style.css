@@ -19,10 +19,6 @@
     background: blue;
 }
 
-.frog {
-    background: green;
-}
-
 .c1 {
     background: black;
 }
@@ -37,4 +33,8 @@
 
 .l4, .l5 {
     background: lightblue;
+}
+
+.frog {
+    background: green;
 }

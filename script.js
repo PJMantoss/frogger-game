@@ -195,7 +195,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if(timerId){
             clearInterval(timerId)
         } else {
-            
+            timerId = setInterval(movePieces, 1000);
+            document.addEventListener('keyup', moveFrog);
         }
     })
 
