@@ -38,4 +38,10 @@ document.addEventListener('DOMContentLoaded', () => {
         win();
     }
 
+    //move Cars
+    autoMoveCars = () => {
+        carsLeft.forEach(carLeft => moveCarLeft(carLeft));
+        carsRight.forEach(carRight => moveCarRight(carRight))
+    }
+
 })
