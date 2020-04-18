@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const timeLeft = document.querySelector('#time-left');
     const result = document.querySelector('#result');
     const startBtn = document.querySelector('#button');
+    const carsLeft = document.querySelector('.car-left');
+    const carsRight = document.querySelector('.car-right');
+    const
 
     const width = 9;
     let currentIndex = 76;
