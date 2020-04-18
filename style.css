@@ -10,3 +10,11 @@
     height: 20px;
     width: 20px;
 }
+
+.starting-block {
+    background: red;
+}
+
+.ending-block {
+    background: blue;
+}
