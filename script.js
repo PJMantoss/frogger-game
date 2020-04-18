@@ -152,7 +152,10 @@ document.addEventListener('DOMContentLoaded', () => {
     lose = () => {
         if((currentTime === 0) || (squares[currentIndex].classList.contains('c1'))
         || (squares[currentIndex].classList.contains('l5'))
-        || (squares[currentIndex].classList.contains('l4'))){}
+        || (squares[currentIndex].classList.contains('l4'))){
+            result.innerHTML = 'YOU LOSE';
+            squares[currentIndex].classList
+        }
     }
 
 
