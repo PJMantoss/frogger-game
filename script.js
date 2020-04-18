@@ -86,5 +86,23 @@ document.addEventListener('DOMContentLoaded', () => {
         logsRight.forEach(logRight => moveLogRight(logRight))
     }
 
+    //Move log left on a time loop
+    moveLogLeft = logLeft => {
+        switch(true){
+            case logLeft.classList.contains('l1'):
+                logLeft.classList.remove('l1');
+                logLeft.classList.add('l2');
+                break;
+            case logLeft.classList.contains('l2'):
+                logLeft.classList.remove('l2');
+                logLeft.classList.add('l3');
+                break;
+            case logLeft.classList.contains('l3'):
+                logLeft.classList.remove('l3');
+                logLeft.classList.add('l1');
+                break;
+        }
+    }
+
 
 })
