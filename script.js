@@ -138,5 +138,12 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    //Function that handles winning
+    win = () => {
+        if(squares[4].classList.contains('frog')){
+            result.innerHTML = 'YOU WON!'
+        }
+    }
+
 
 })
