@@ -44,4 +44,14 @@ document.addEventListener('DOMContentLoaded', () => {
         carsRight.forEach(carRight => moveCarRight(carRight))
     }
 
+    // Move Cars Left on a time loop
+    moveCarLeft = carLeft => {
+        switch(true){
+            case carLeft.classList.contains('c1'):
+                carLeft.classList.remove('c1');
+                carLeft.classList.add('c2');
+                break;
+        }
+    }
+
 })
