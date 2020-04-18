@@ -9,9 +9,23 @@ document.addEventListener('DOMContentLoaded', () => {
     let timerId;
 
     //Render frog on starting-block
-    squares[currentIndex].classList.add('.frog');
+    squares[currentIndex].classList.add('frog');
 
     //Function that handles Frog's movement
-    moveFrog = e => {}
+    moveFrog = e => {
+        squares[currentIndex].classList.remove('frog');
+
+        switch(e.keyCode){
+            case 37:
+                if(currentIndex % width !== 0) currentIndex -= 1;
+                break;
+            case 38:
+                if(currentIndex - width >= 0) currentIndex -= width;
+                break;
+            case 39:
+                if (currentIndex % width < width - 1) currentIndex += 1;
+                break;
+        }
+    }
 
 })
