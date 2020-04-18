@@ -4,7 +4,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const result = document.querySelector('#result');
     const startBtn = document.querySelector('#button');
 
-    
+    const width = 9;
+    let currentIndex = 76;
+    let timerId;
 
+    //Render frog on starting-block
+    squares[currentIndex].classList.add('.frog');
 
 })
