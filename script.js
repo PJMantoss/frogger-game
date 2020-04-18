@@ -170,5 +170,14 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    //Move the frog when it's on the log moving right
+    moveFrogRight = () => {
+        if(currentIndex > 18 && currentIndex <= 26){
+            squares[currentIndex].classList.remove('frog');
+            currentIndex -= 1;
+            squares[currentIndex].classList.add('frog');
+        }
+    }
+
 
 })
