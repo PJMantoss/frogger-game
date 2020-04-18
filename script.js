@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
         carsRight.forEach(carRight => moveCarRight(carRight))
     }
 
-    // Move Cars Left on a time loop
+    // Move Car Left on a time loop
     moveCarLeft = carLeft => {
         switch(true){
             case carLeft.classList.contains('c1'):
@@ -61,5 +61,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 break;
         }
     }
+
+    //Move Car Right on a time loop
 
 })
