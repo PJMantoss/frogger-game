@@ -11,4 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //Render frog on starting-block
     squares[currentIndex].classList.add('.frog');
 
+    //Function that handles Frog's movement
+    moveFrog = e => {}
+
 })
