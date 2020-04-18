@@ -18,3 +18,5 @@ You will be safe on the logs, or '.l1, .l2, .l3'
 You will move with the logs when on them
 
 You can pause the game by pressing the same button as you did to start the game
+
+DATE: 18-Apr-2020
