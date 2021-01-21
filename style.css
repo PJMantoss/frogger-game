@@ -47,7 +47,7 @@ button:hover {
 
 @media(max-width: 600px){
     header {
-        margin: 40px 10px;
+        margin: 70px 10px;
     }
 
     header button{
