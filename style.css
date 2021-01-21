@@ -19,8 +19,9 @@ header button {
     background: blue;
     color: white;
     border: none;
-
-border-radius: 8px;}
+    border-radius: 6px;
+    font-weight: bold;
+}
 
 .grid{
     display: flex;
