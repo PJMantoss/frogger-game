@@ -25,6 +25,7 @@ header button {
 
 button:hover {
     background: skyblue;
+    color: #000;
 }
 
 .grid{
