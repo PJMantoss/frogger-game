@@ -84,3 +84,8 @@ button:hover {
 .frog {
     background: green;
 }
+
+footer {
+    display: flex;
+    
+}
