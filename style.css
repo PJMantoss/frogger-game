@@ -23,6 +23,7 @@ header button {
     border: 1px solid;
     height: 180px;
     width: 180px;
+    background: #fff;
     margin: 10px auto;
     border: 2px solid #fff;
 }
