@@ -23,6 +23,10 @@ header button {
     font-weight: bold;
 }
 
+button:hover {
+    background: skyblue;
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
