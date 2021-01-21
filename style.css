@@ -18,7 +18,7 @@ header button {
     margin-bottom: 20px;
     background: blue;
     color: white;
-    outline: none;
+    border: none;
 }
 
 .grid{
