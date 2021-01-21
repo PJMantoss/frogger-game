@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+header {
+    text-align: center;
+}
+
 .grid{
     display: flex;
     flex-wrap: wrap;
