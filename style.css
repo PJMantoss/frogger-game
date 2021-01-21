@@ -44,7 +44,11 @@ button:hover {
     width: 20px;
 }
 
-@media(max-width: 600px){}
+@media(max-width: 600px){
+    header {
+        margin: 20px 10px;
+    }
+}
 
 .starting-block {
     background: red;
